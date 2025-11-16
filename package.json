@@ -3,16 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  // "scripts": {
-  //   "dev": "vite",
-  //   "build": "vite build",
-  //   "lint": "eslint .",
-  //   "preview": "vite preview"
-  // },
-
-   "scripts": {
+  "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build", 
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite preview --port 10000"
