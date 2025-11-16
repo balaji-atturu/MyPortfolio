@@ -1,0 +1,42 @@
+.projects-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px 0;
+    background: lab(32.63% -0.36 -1.47);
+}
+
+.projects-slider {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.projects-para {
+    font-size: 4vmax;
+    background: linear-gradient(to right, rgb(203, 53, 108), white);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .projects-slider {
+        grid-template-columns: 1fr;
+        width: 95%;
+        gap: 30px;
+    }
+    
+    .projects-section {
+        padding: 80px 0;
+        min-height: auto;
+    }
+}

@@ -1,0 +1,45 @@
+.achievements-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px 0;
+    background: lab(32.63% -0.36 -1.47);
+}
+
+.achievements-slider {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.achievements-para {
+    font-size: 4vmax;
+    background: linear-gradient(to right, rgb(66, 180, 205), white);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.achievements-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .achievements-section {
+        padding: 80px 0;
+        min-height: auto;
+    }
+    
+    .achievements-slider {
+        width: 95%;
+    }
+}
